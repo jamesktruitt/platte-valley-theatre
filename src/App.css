@@ -100,6 +100,16 @@ header, nav, main, footer {
 }
 
 @media screen and (max-width: 1000px) {
+
+  body {
+    margin: 5em 5%;
+  }
+
+  .grid {
+    grid-template-columns: 0 1fr 0;
+    grid-template-rows: 150px 50px 500px 300px 300px 150px;
+  }
+
   nav,
   aside {
     grid-column: 1 / 3;
