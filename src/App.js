@@ -6,11 +6,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="grid">
+        <div className="grid-container">
           <header className="logo-header">
             Logo Header
           </header>
-
+ 
           <nav className="navigation-bar">
             Menu Navigation
           </nav>
@@ -24,7 +24,7 @@ class App extends Component {
           </main>
 
           <aside className="sidebar-left">
-            About PVP
+            About
           </aside>
           
           <aside className="sidebar-right">
