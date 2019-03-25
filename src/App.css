@@ -24,6 +24,7 @@ body {
     linear-gradient(110deg, #004983, #62be5e);
   background-size: 340px, auto;
   min-height: calc(100vh - 100px);
+  /* min-width: 100vw; */
   margin: 5em 15em;
   background-position: fixed;
   letter-spacing: -1px;
@@ -81,6 +82,12 @@ header, nav, main, footer {
 
 aside {
   align-content: stretch;
+}
+
+@media screen and (min-width: 1900px) {
+  body {
+    margin: 5em 20%;
+  }
 }
 
 /* Tablet screen-size modification */
